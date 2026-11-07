@@ -1,10 +1,10 @@
-[Início - Hands On - SAP Inside Track Fortaleza 2026 - Crie Apps SAP Fiori utilizado IA Generativa](../../README.md)
+[Início - Treinamento - Crie Apps SAP Fiori utilizando IA Generativa](../../README.md)
 
 # Primeiros Passos
 
 ## Introdução
 
-Bem-vindo ao **Hands On do SAP Inside Track Fortaleza**! Antes de construir o seu app SAP Fiori, você precisa configurar o seu ambiente de desenvolvimento no **Visual Studio Code** e conectá-lo ao seu sistema ABAP.
+Bem-vindo ao **Treinamento**! Antes de construir o seu app SAP Fiori, você precisa configurar o seu ambiente de desenvolvimento no **Visual Studio Code** e conectá-lo ao seu sistema ABAP.
 
 Neste exercício, você vai instalar o Visual Studio Code, instalar a extensão ADT for Visual Studio Code e estabelecer uma conexão com o seu sistema ABAP.
 
@@ -15,8 +15,8 @@ Neste exercício, você vai instalar o Visual Studio Code, instalar a extensão 
 - [0.2 - Configurar ambiente de desenvolvimento Node](#exercício-02-configurar-ambiente-de-desenvolvimento-node)
 - [0.3 - Instalar a Extensão ADT for Visual Studio Code](#exercício-03-instalar-a-extensão-adt-for-visual-studio-code)
 - [0.4 - Instalar a Extensão SAP Fiori Tools - Extension Pack no Visual Studio Code](#exercício-04-instalar-a-extensão-sap-fiori-tools---extension-pack-no-visual-studio-code)
-- [0.5 - Instalar a Extensão Cline no Visual Studio Code](#exercício-05-instalar-a-extensão-cline-no-visual-studio-code)
-- [0.6 - Configurar o Cline](#exercício-06-configurar-o-cline)
+- [0.5 - Instalar a Extensão Cline no Visual Studio Code (Opcional)](#exercício-05-instalar-a-extensão-cline-no-visual-studio-code-opcional)
+- [0.6 - Configurar o Cline (Opcional)](#exercício-06-configurar-o-cline-opcional)
 - [0.7 - Criar ambiente ABAP Environment no SAP BTP Trial](#exercício-07-criar-ambiente-abap-environment-no-sap-btp-trial)
 - [0.8 - Conectar o Visual Studio Code ao Seu Sistema ABAP Cloud](#exercício-08-conectar-o-visual-studio-code-ao-seu-sistema-abap)
 - [0.9 - Explorar a Interface do Visual Studio Code para Desenvolvimento ABAP](#exercício-09-explorar-a-interface-do-visual-studio-code-para-desenvolvimento-abap)
@@ -38,7 +38,7 @@ Como o ambiente ABAP é compartilhado por muitos participantes, todo artefato qu
 
 Você encontrará o placeholder **`###`** em todos os nomes de objetos ao longo dos exercícios. Substitua-o pelo seu ID do grupo.
 
-O ID do grupo pode conter **no máximo 3 caracteres (números e/ou letras)**, por exemplo `123`, `XY1` ou `ABC`. Esse mesmo será definido pelo instrutor durante o Hands On.
+O ID do grupo pode conter **no máximo 3 caracteres (números e/ou letras)**, por exemplo `123`, `XY1` ou `ABC`. Esse mesmo será definido pelo instrutor durante o treinamento.
 
 </details>
 
@@ -179,7 +179,7 @@ O ID do grupo pode conter **no máximo 3 caracteres (números e/ou letras)**, po
 
 ---
 
-## Exercício 0.5: Instalar a Extensão Cline no Visual Studio Code
+## Exercício 0.5: Instalar a Extensão Cline no Visual Studio Code (Opcional)
 [^Topo da página](#)
 
 > Instale a extensão **Cline** para o Visual Studio Code a partir do Visual Studio Marketplace. Essa extensão permite que você converse com uma IA, gere código, edite arquivos e até execute comandos, sem a necessidade sair do seu espaço de trabalho (Visual Studio Code).
@@ -220,7 +220,7 @@ O ID do grupo pode conter **no máximo 3 caracteres (números e/ou letras)**, po
 
 ---
 
-## Exercício 0.6: Configurar o Cline
+## Exercício 0.6: Configurar o Cline (Opcional)
 [^Topo da página](#)
 
 > Configure o Cline para usar o modelo de IA do **SAP AI Core**, com as credenciais da chave enviada por e-mail, e defina o idioma para português.
