@@ -1,4 +1,4 @@
-[Início - Hands On - SAP Inside Track Fortaleza 2026 - Crie Apps SAP Fiori utilizado IA Generativa](../../README.md)
+[Início - Treinamento - Crie Apps SAP Fiori utilizando IA Generativa](../../README.md)
 
 # Exercício 1: Configurar os MCP Servers (ADT e Fiori) 💎
 
@@ -71,8 +71,9 @@ Veja [ADT MCP Tools](https://help.sap.com/docs/abap-cloud/abap-development-tools
   <summary>🔵 Clique para expandir!</summary>
 
 1. Abra as **Configurações do Visual Studio Code**:
-   - Abra o **Command Palette** com **`Ctrl+Shift+P`** (macOS: **`Cmd+Shift+P`**)
-   - Digite `Preferences: Open Settings (UI)` e selecione **Preferences: Open Settings...**.
+   - Use o atalho **`Ctrl+,`** (Windows/Linux) ou **`Cmd+,`** (macOS)
+
+   > ℹ️ **Alternativa**: abra o **Command Palette** com **`Ctrl+Shift+P`** (macOS: **`Cmd+Shift+P`**), digite `Preferences: Open Settings (UI)` e selecione **Preferences: Open Settings (UI)**.
 
 2. Na barra de pesquisa, digite:
    ```
@@ -88,17 +89,26 @@ Veja [ADT MCP Tools](https://help.sap.com/docs/abap-cloud/abap-development-tools
 
    ![Habilitar MCP](images/ex1_mcp_setting_2.png)
 
-4. Opcionalmente, você pode configurar a **porta do MCP server** (padrão: `2236`). Altere apenas se a porta 2236 estiver ocupada na sua máquina:
+4. Ainda nas configurações, ajuste mais duas opções do ADT MCP Server (pesquise por `adt mcp`):
+
+   - **Marque** a opção **"Adt › Mcp Server: Enable Edit File Tool For ABAP Objects"**. Ela permite que o coding agent **modifique** objetos ABAP. Sem ela, o MCP fica somente **leitura** (read only).
+   - **Desmarque** a opção **"Adt › Mcp Server: Access Restrictions Enabled"**, para desabilitar as restrições de acesso do MCP Server.
+
+   > ⚠️ **Importante**: sem a opção de edição marcada, os exercícios seguintes que criam e alteram objetos não funcionarão.
+
+   ![Opções do ADT MCP Server: edição habilitada e restrições de acesso desabilitadas](images/ex1_mcp_setting_4.png)
+
+5. Opcionalmente, você pode configurar a **porta do MCP server** (padrão: `2236`). Altere apenas se a porta 2236 estiver ocupada na sua máquina:
    - Pesquise por `ADT MCP port` nas Settings
    - Defina qualquer porta disponível entre `0` e `65535`
 
    ![Porta MCP](images/ex1_mcp_setting_3.png)
 
-5. **Recarregue o Visual Studio Code** se for solicitado, ou feche e abra o aplicativo novamente.
+6. **Recarregue o Visual Studio Code** se for solicitado, ou feche e abra o aplicativo novamente.
 
    ![Configuração do ADT MCP Server habilitada](images/ex1_mcp_setting.png)
 
-6. Caso vá utilizar algum agente externo como Claude Code ou Codex por exemplo, obter o token gerado nessa mesma tela para utilização posterior.
+7. Caso vá utilizar algum agente externo como Claude Code ou Codex por exemplo, obter o token gerado nessa mesma tela para utilização posterior.
 
    ![Token MCP](images/ex1_mcp_adt_token.png)
 
@@ -201,7 +211,7 @@ Se o ADT MCP Server não aparecer ou falhar ao iniciar:
    }
    ```
 
-   > ℹ️ **Nota**: Informar o seu token obtido no passo do item 6 do tópico 1.1 (_veja_ [Exercício 1.1: Habilitar o ADT MCP Server nas Configurações do Visual Studio Code](#exercício-11-habilitar-o-adt-mcp-server-nas-configurações-do-visual-studio-code)).
+   > ℹ️ **Nota**: Informar o seu token obtido no passo do item 7 do tópico 1.1 (_veja_ [Exercício 1.1: Habilitar o ADT MCP Server nas Configurações do Visual Studio Code](#exercício-11-habilitar-o-adt-mcp-server-nas-configurações-do-visual-studio-code)).
 
 
 3. **Verifique se o MCP está ativo**: na aba **MCP** do Cline, o servidor **`abap-adt`** deve aparecer na lista com o botão de ativação ligado e uma **bolinha verde** ao lado.
@@ -228,7 +238,7 @@ Se o ADT MCP Server não aparecer ou falhar ao iniciar:
 <details>
   <summary>🔵 Claude Code - Clique para expandir!</summary>
 
-1. Para iniciar a configuração, você precisa do token gerado automaticamente no Visual Studio Code. Falamos desse ponto no item 6 do tópico 1.1 (_veja_ [Exercício 1.1: Habilitar o ADT MCP Server nas Configurações do Visual Studio Code](#exercício-11-habilitar-o-adt-mcp-server-nas-configurações-do-visual-studio-code)).
+1. Para iniciar a configuração, você precisa do token gerado automaticamente no Visual Studio Code. Falamos desse ponto no item 7 do tópico 1.1 (_veja_ [Exercício 1.1: Habilitar o ADT MCP Server nas Configurações do Visual Studio Code](#exercício-11-habilitar-o-adt-mcp-server-nas-configurações-do-visual-studio-code)).
 
 2. Abra um **terminal** (ou PowerShell no Windows) e execute o comando abaixo, substituindo **`<SEU_TOKEN>`** pelo token obtido no passo anterior:
 

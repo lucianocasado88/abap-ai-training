@@ -1,4 +1,4 @@
-[Início - RAP130 - Crie Apps SAP Fiori com ABAP Cloud e SAP Joule for Developers no Visual Studio Code](../../README.md)
+[Início - Treinamento - Crie Apps SAP Fiori utilizando IA Generativa](../../README.md)
 
 # Exercício 5: Gerar o App SAP Fiori via Fiori MCP
 
@@ -66,7 +66,7 @@ Neste exercício, você vai usar **o seu coding agent** junto com o **Fiori MCP 
 
    ![Command Palette: SAP Add SAP System](images/ex05_add_sap_system_01.png)
 
-2. A tela **SAP System Details** é exibida, com **System Type** como _ABAP Environment on SAP Business Technology Platform_ e **Connection Type** como _ABAP Catalog_. No campo **Connection Name**, informe um nome para a conexão (por exemplo, `SIT Fortaleza - Hands On`).
+2. A tela **SAP System Details** é exibida, com **System Type** como _ABAP Environment on SAP Business Technology Platform_ e **Connection Type** como _ABAP Catalog_. No campo **Connection Name**, informe um nome para a conexão (por exemplo, `Treinamento Fiori IA`).
 
 3. No campo **URL**, informe o link do seu ambiente **ABAP Trial** do SAP BTP.
 
@@ -91,7 +91,7 @@ Neste exercício, você vai usar **o seu coding agent** junto com o **Fiori MCP 
 
 5. Com a conexão validada, clique em **Save** para salvar o sistema.
 
-   > ✅ O sistema passa a aparecer no painel **Connection Manager For SAP Systems**, com o nome da conexão que você informou, por exemplo _SIT Fortaleza - Hands On (ABAP Cloud)_.
+   > ✅ O sistema passa a aparecer no painel **Connection Manager For SAP Systems**, com o nome da conexão que você informou, por exemplo _Treinamento Fiori IA (ABAP Cloud)_.
 
    ![Sistema SAP salvo no Connection Manager](images/ex05_add_sap_system_04.png)
 
@@ -110,14 +110,14 @@ Neste exercício, você vai usar **o seu coding agent** junto com o **Fiori MCP 
 1. No **Cline**, copie e cole o prompt a seguir:
 
    ```
-   Usando o Fiori MCP Server, liste os sistemas SAP disponíveis. Utilizar a conexão do ambiente SIT Fortaleza - Hands On
+   Usando o Fiori MCP Server, liste os sistemas SAP disponíveis. Utilizar a conexão do ambiente Treinamento Fiori IA
    ```
 
    > ℹ️ Se você usou outro nome em **Connection Name** no Exercício 5.2, use esse nome no prompt.
 
 2. O Cline vai pedir permissão para chamar a tool `list_sap_systems` do **fiori-mcp**. **Permita** a chamada da tool.
 
-   > ✅ O Cline deve listar o sistema **SIT Fortaleza - Hands On**, com a URL do seu ambiente. Isso confirma que o Fiori MCP Server está funcionando e enxerga o seu sistema.
+   > ✅ O Cline deve listar o sistema **Treinamento Fiori IA**, com a URL do seu ambiente. Isso confirma que o Fiori MCP Server está funcionando e enxerga o seu sistema.
 
    ![Sistemas SAP listados pelo Fiori MCP Server](images/ex05_cline_list_sap_systems.png)
 
@@ -129,14 +129,14 @@ Neste exercício, você vai usar **o seu coding agent** junto com o **Fiori MCP 
 1. No **Claude Code**, copie e cole o prompt a seguir:
 
    ```
-   Usando o Fiori MCP Server, liste os sistemas SAP disponíveis. Utilizar a conexão do ambiente SIT Fortaleza - Hands On
+   Usando o Fiori MCP Server, liste os sistemas SAP disponíveis. Utilizar a conexão do ambiente Treinamento Fiori IA
    ```
 
    > ℹ️ Se você usou outro nome em **Connection Name** no Exercício 5.2, use esse nome no prompt.
 
 2. O Claude Code vai pedir permissão para chamar a tool `list_sap_systems` do **fiori-mcp**. **Permita** a chamada da tool.
 
-   > ✅ O Claude Code deve listar o sistema **SIT Fortaleza - Hands On**, com a URL do seu ambiente.
+   > ✅ O Claude Code deve listar o sistema **Treinamento Fiori IA**, com a URL do seu ambiente.
 
 </details>
 

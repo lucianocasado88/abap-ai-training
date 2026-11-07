@@ -1,18 +1,20 @@
-[Início - Hands On - SAP Inside Track Fortaleza 2026 - Crie Apps SAP Fiori utilizado IA Generativa](https://github.com/lucianocasado88/abap-ai-handson)
+[Início - Treinamento - Crie Apps SAP Fiori utilizando IA Generativa](https://github.com/lucianocasado88/abap-ai-training)
 
-# Hands On - SAP Inside Track Fortaleza 2026 - Crie Apps SAP Fiori utilizado IA Generativa
+# Treinamento - Crie Apps SAP Fiori utilizando IA Generativa
 
 > 🌐 **Nota sobre este material**
 >
-> Este material é uma adaptação do repositório original [SAP-samples/abap-platform-rap130](https://github.com/SAP-samples/abap-platform-rap130), licenciado sob a [Apache-2.0](LICENSE). Foi adaptado por Luciano Casado para o hands-on do SAP Inside Track Fortaleza 2026. O conteúdo original é de autoria da SAP SE e de seus colaboradores.
+> Este material é uma adaptação do repositório original [SAP-samples/abap-platform-rap130](https://github.com/SAP-samples/abap-platform-rap130), licenciado sob a [Apache-2.0](LICENSE). Foi adaptado por Luciano Casado para treinamento. O conteúdo original é de autoria da SAP SE e de seus colaboradores.
 >
 > **Principais alterações em relação ao original:** tradução para o português (Brasil), uso do Cline e do Claude Code no lugar do GitHub Copilot e novo fluxo de criação do app Fiori com o Fiori MCP Server.
+>
+> **Origem do material:** este treinamento é baseado no hands-on que apresentei no **SAP Inside Track Fortaleza 2026** ([sitfor2026-abap-ai](https://github.com/lucianocasado88/sitfor2026-abap-ai)). Por isso, alguns **prints de tela** ainda mostram o nome do evento ou do ambiente usado lá (por exemplo, a conexão `SIT Fortaleza - Hands On` e o pacote `ZSITFOR_AI_###`). Os passos são os mesmos: no seu ambiente, use os nomes indicados no texto de cada exercício.
 >
 > Este é um material da comunidade e **não é um material oficial da SAP**. SAP, SAP Fiori e SAP BTP são marcas registradas da SAP SE.
 
 ## Descrição
 
-Este repositório contém o material da sessão hands-on **Hands On - SAP Inside Track Fortaleza 2026 - Crie Apps SAP Fiori utilizado IA Generativa** 
+Este repositório contém o material do **Treinamento - Crie Apps SAP Fiori utilizando IA Generativa** 
 
 Você vai construir um app SAP Fiori elements transacional para gerenciamento de viagens usando o **ABAP RESTful Application Programming Model (RAP)**, inteiramente a partir do **Visual Studio Code**, com o **ADT MCP Server** gerando e aprimorando a sua aplicação.
 
@@ -88,7 +90,7 @@ Siga estes passos para construir um app SAP Fiori usando o ADT MCP Server / Fior
 
 | Exercícios | -- |
 | ------------- | -- | 
-| [Exercício 6: Criar um Custom Agent](exercises/ex06/README.md) | -- | 
+| [Exercício 6: Usar um Projeto com Agentes Pré-configurados](exercises/ex06/README.md) | -- | 
 
 ## Mais informações
 

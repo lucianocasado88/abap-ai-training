@@ -1,4 +1,4 @@
-[Início - RAP130 - Crie Apps SAP Fiori com ABAP Cloud e SAP Joule for Developers no Visual Studio Code](../../README.md)
+[Início - Treinamento - Crie Apps SAP Fiori utilizando IA Generativa](../../README.md)
 
 # Exercício 2: Gerar o App SAP Fiori via MCP Tools
 
